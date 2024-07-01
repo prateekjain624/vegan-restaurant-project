@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vegan Restaurant</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="offer-section.css" />
+    <link rel="stylesheet" href="reserve-seat.css" />
+    <link rel="stylesheet" href="review.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ec8788047a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navbar-container">
+          <div class="logo">
+            <img src="assets/images/logo.png" alt="" />
+          </div>
+
+          <ul class="navlinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="btn">
+            <a href="#book" class="book-now">Book Now</a>
+          </div>
+        </div>
+
+        <div class="navbar  custom">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+          <i class="fa-solid fa-bars"></i>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <img
+                src="assets/images/logo.png"
+                height="70px"
+                width="70px"
+                alt=""
+              />
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Book Now</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- <div class="hero-container">
+        <div class="hero-image">
+          <img src="assets/images/heroimage.png" alt="" />
+        </div>
+        <div class="hero-details">
+          <h2>Welcome To</h2>
+          <h2>Swagatam Restaurant</h2>
+          <p>Explore the authentic dishes with your friends and family</p>
+          <a href="#" class="read-more">Read more</a>
+        </div>
+      </div> -->
+    </header>
+
+    <!-- main section starts -->
+    <main>
+      <!-- <section id="about" class="about-section">
+        <div class="about-us">
+          <h2>About Us</h2>
+          <h3>Our Story</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident,
+            ut incidunt, voluptatum placeat repudiandae eos accusantium sed quo
+            vero earum, debitis magnam ullam aperiam? Fugit ab dolores similique
+            adipisci in voluptatibus doloremque quos porro, commodi repudiandae
+            necessitatibus cupiditate perferendis labore voluptates corrupti
+            enim id recusandae. Neque in unde facere magni.
+          </p>
+          <a href="#" class="read-more">Read more</a>
+        </div>
+        <div class="aboutus-img">
+          <img src="assets/images/aboutus img.png" alt="" />
+        </div>
+      </section> -->
+
+      <!-- services section starts -->
+
+      <!-- <section id="services" class="services">
+        <h3>Services</h3>
+        <p>What Makes Us Special</p>
+        <div class="card-container">
+          <div class="card">
+            <img src="assets/images/orange juice.png" alt="" />
+            <h4>Party</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus
+              tempore molestiae nisi neque voluptate aperiam dicta cupiditate
+              adipisci quia quasi sequi ad ut facilis ipsa, ipsam tenetur quis
+              eligendi. Facere?
+            </p>
+          </div>
+          <div class="card">
+            <img src="assets/images/chef.png" alt="" />
+            <h4>Birthdays</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus
+              tempore molestiae nisi neque voluptate aperiam dicta cupiditate
+              adipisci quia quasi sequi ad ut facilis ipsa, ipsam tenetur quis
+              eligendi. Facere?
+            </p>
+          </div>
+          <div class="card">
+            <img src="assets/images/restaurant.png" alt="" />
+            <h4>Catering</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus
+              tempore molestiae nisi neque voluptate aperiam dicta cupiditate
+              adipisci quia quasi sequi ad ut facilis ipsa, ipsam tenetur quis
+              eligendi. Facere?
+            </p>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- menu section -->
+
+      <!-- <section id="menu" class="menu-section">
+        <h3>Straight From Kitchen</h3>
+        <h4>Our Menu</h4>
+        <div class="menu-list">
+          <div class="menu">
+            <img src="assets/menu-items/food1.jpeg" alt="" />
+            <div class="text">
+              <h4>Lorem ipsum dolor sit amet.</h4>
+              <p>Lorem ipsum dolor sit.</p>
+            </div>
+            <hr style="width: 100px; height: 2px; background-color: #ffce6d" />
+            <span>Rs 222</span>
+          </div>
+          <div class="menu">
+            <img src="assets/menu-items/food2.jpeg" alt="" />
+            <div class="text">
+              <h4>Lorem ipsum dolor sit amet.</h4>
+              <p>Lorem ipsum dolor sit.</p>
+            </div>
+            <hr style="width: 100px; height: 2px; background-color: gold" />
+            <span>Rs 148</span>
+          </div>
+          <div class="menu">
+            <img src="assets/menu-items/food3.jpeg" alt="" />
+            <div class="text">
+              <h4>Lorem ipsum dolor sit amet.</h4>
+              <p>Lorem ipsum dolor sit.</p>
+            </div>
+            <hr style="width: 100px; height: 2px; background-color: gold" />
+            <span>Rs 130</span>
+          </div>
+          <div class="menu">
+            <img src="assets/menu-items/food4.jpeg" alt="" />
+            <div class="text">
+              <h4>Lorem ipsum dolor sit amet.</h4>
+              <p>Lorem ipsum dolor sit.</p>
+            </div>
+            <hr style="width: 100px; height: 2px; background-color: gold" />
+            <span>Rs 148</span>
+          </div>
+          <div class="menu">
+            <img src="assets/menu-items/food5.jpeg" alt="" />
+            <div class="text">
+              <h4>Lorem ipsum dolor sit amet.</h4>
+              <p>Lorem ipsum dolor sit.</p>
+            </div>
+            <hr style="width: 100px; height: 2px; background-color: gold" />
+            <span>Rs 200</span>
+          </div>
+          <div class="menu">
+            <img src="assets/menu-items/food6.jpeg" alt="" />
+            <div class="text">
+              <h4>Lorem ipsum dolor sit amet.</h4>
+              <p>Lorem ipsum dolor sit.</p>
+            </div>
+            <hr style="width: 100px; height: 2px; background-color: gold" />
+            <span>Rs 500</span>
+          </div>
+          <div class="menu">
+            <img src="assets/menu-items/food7.jpeg" alt="" />
+            <div class="text">
+              <h4>Lorem ipsum dolor sit amet.</h4>
+              <p>Lorem ipsum dolor sit.</p>
+            </div>
+            <hr style="width: 100px; height: 2px; background-color: gold" />
+            <span>Rs 300</span>
+          </div>
+          <div class="menu">
+            <img src="assets/menu-items/food8.jpeg" alt="" />
+            <div class="text">
+              <h4>Lorem ipsum dolor sit amet.</h4>
+              <p>Lorem ipsum dolor sit.</p>
+            </div>
+            <hr style="width: 100px; height: 2px; background-color: gold" />
+            <span>Rs 150</span>
+          </div>
+          <div class="menu">
+            <img src="assets/menu-items/food4.jpeg" alt="" />
+            <div class="text">
+              <h4>Lorem ipsum dolor sit amet.</h4>
+              <p>Lorem ipsum dolor sit.</p>
+            </div>
+            <hr style="width: 100px; height: 2px; background-color: gold" />
+            <span>Rs 177</span>
+          </div>
+          <div class="menu">
+            <img src="assets/menu-items/food5.jpeg" alt="" />
+            <div class="text">
+              <h4>Lorem ipsum dolor sit amet.</h4>
+              <p>Lorem ipsum dolor sit.</p>
+            </div>
+            <hr style="width: 100px; height: 2px; background-color: gold" />
+            <span>Rs 320</span>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- offer section strats here -->
+
+      <!-- <section class="offer-section">
+        <div class="offer">
+          <h2>Come join us for a lunch this weekend and enjoy</h2>
+          <h3>FLAT 10% OFF</h3>
+          <button class="book-table">Book Table</button>
+        </div>
+      </section> -->
+
+      <!-- seat reserve section -->
+
+      <!-- <section class="reserve-the-seat">
+        <div class="reserve">
+          <h3>Reserve the seat</h3>
+          <p>Book A Table On Time</p>
+          <form class="form">
+            <input type="text" placeholder="Your Full Name" />
+
+            <input type="number" placeholder="Your Phone Number" />
+
+            <input type="date" placeholder="Date" />
+            <select name="time" id="time">
+              <option value="">Time Slot</option>
+              <option value="">Available slots -----------</option>
+              <div>
+                <option value="">5 to 6pm</option>
+                <option value="">6 to 7pm</option>
+                <option value="">7 to 8pm</option>
+                <option value="">8 to 9pm</option>
+              </div>
+            </select>
+
+            <select name="occupancy" id="occupancy">
+              <option value="">Occupancy</option>
+            </select>
+
+            <button class="reserve-btn">Book Now</button>
+          </form>
+        </div>
+      </section> -->
+
+      <!-- review-section -->
+
+      <!-- <section class="reviews-section">
+        <div class="review">
+          <h3>Reviews</h3>
+          <p>words from our food lovers</p>
+          <div class="reviews-container">
+            <div class="review-card">
+              <div class="review-img">
+                <img
+                  src="assets/customer-reviews/customer1.jpeg"
+                  alt="review"
+                />
+              </div>
+              <div class="review-name">
+                <h4>John Doe</h4>
+
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="review-text">
+                <p>
+                  "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Assumenda repellendus doloribus veniam commodi alias, corporis
+                  delectus eius deserunt provident, hic sunt exercitationem
+                  saepe incidunt officiis soluta consequuntur a tempore
+                  voluptate?"
+                </p>
+              </div>
+            </div>
+            <div class="review-card">
+              <div class="review-img">
+                <img
+                  src="assets/customer-reviews/customer2.jpeg"
+                  alt="review"
+                />
+              </div>
+              <div class="review-name">
+                <h4>Olivia</h4>
+
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="review-text">
+                <p>
+                  "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Assumenda repellendus doloribus veniam commodi alias, corporis
+                  delectus eius deserunt provident, hic sunt exercitationem
+                  saepe incidunt officiis soluta consequuntur a tempore
+                  voluptate?"
+                </p>
+              </div>
+            </div>
+            <div class="review-card">
+              <div class="review-img">
+                <img
+                  src="assets/customer-reviews/customer3.jpeg"
+                  alt="review"
+                />
+              </div>
+              <div class="review-name">
+                <h4>Williams</h4>
+
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="review-text">
+                <p>
+                  "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Assumenda repellendus doloribus veniam commodi alias, corporis
+                  delectus eius deserunt provident, hic sunt exercitationem
+                  saepe incidunt officiis soluta consequuntur a tempore
+                  voluptate?"
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- contact-section starts -->
+
+      <!-- <section class="contact-section">
+        <div class="contact-container">
+          <div class="column">
+            <div class="logo">
+              <img src="assets/images/logo.png" alt="" />
+            </div>
+            <h4>Swagatam Restaurant</h4>
+            <p>Swagatam Restaurant is a restaurant that serves Indian food.</p>
+            <div class="social-icon">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+
+          <div class="column">
+            <h2 id="other-links">Other Links</h2>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">Our Kitchen</a></li>
+            </ul>
+          </div>
+
+          <div class="column">
+            <h2>Contact Us</h2>
+            <div class="details-container">
+              <div class="social">
+                <i class="fa-solid fa-envelope"></i>
+                <i class="fa-solid fa-location-dot"></i>
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <p>Gogreendineservice@Gmail.Com</p>
+                <p>AZ Complex Bylane3 Mandari Rd Mumbai 1100867</p>
+                <p>+1800 287 256</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- <footer>
+        <p>Copyright © 2024 Golden Dine website</p>
+        <p>All rights reserved</p>
+      </footer> -->
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
