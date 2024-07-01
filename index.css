@@ -103,8 +103,9 @@ nav {
 .hero-container {
   height: 65%;
   /* border: 2px solid red; */
-  position: relative;
-  top: 10%;
+  position: absolute;
+  top: 18%;
+  left: 32%;
   display: flex;
   flex-direction: column;
   justify-content: center;

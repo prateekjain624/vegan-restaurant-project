@@ -31,4 +31,9 @@
   .custom i{
     color: rgb(255, 255, 255);
   }
+
+  .hero-container{
+    top: 6%;
+    left: 20%;
+  }
 }
