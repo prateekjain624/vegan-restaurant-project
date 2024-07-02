@@ -23,7 +23,7 @@ nav {
   background: linear-gradient(180deg, rgba(16, 20, 24, 0) 0%, #101418 100%);
 }
 
-.container-fluid{
+.container-fluid {
   padding-top: 5rem;
 }
 
@@ -41,7 +41,7 @@ nav {
   width: 36%;
 }
 
-.navbar-div1{
+.navbar-div1 {
   display: flex;
   align-items: center;
   margin-right: -2rem;
@@ -50,7 +50,6 @@ nav {
 img {
   width: 50px;
 }
-
 
 .navlinks {
   display: flex;
@@ -67,7 +66,6 @@ img {
 .navlinks li a {
   text-decoration: none;
   color: #ffffcc;
-
 }
 
 .book-now {
@@ -444,7 +442,458 @@ main {
   color: #ffce6d;
 }
 
-/* foofter css starts here */
+/* offer-section css */
+
+.offer-section {
+  width: 100%;
+  height: 50vh;
+
+  background: rgba(16, 20, 24, 0.7);
+  position: relative;
+}
+
+.offer {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.offer h2 {
+  height: 10vh;
+  width: 35%;
+  position: absolute;
+  top: 12%;
+  font-family: "Dancing Script";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.2rem;
+
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #fffffc;
+}
+
+.offer h3 {
+  position: absolute;
+  top: 45%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.9rem;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #ffce6d;
+}
+
+.book-table {
+  position: absolute;
+  top: 60%;
+  background: rgb(0, 0, 0);
+  color: #fff;
+  padding: 1rem 2.5rem;
+  text-decoration: none;
+  border-radius: 3px;
+  font-weight: bold;
+  border: 2px solid #fffccc;
+  margin-top: 0.8rem;
+  cursor: pointer;
+}
+
+/* reserve a seat css starts here */
+
+.reserve-the-seat {
+  width: 100%;
+  height: 80vh;
+  margin-top: 3rem;
+}
+
+.reserve {
+  width: 85%;
+  height: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background: rgba(16, 20, 24, 0.7);
+}
+
+.reserve h3 {
+  color: #fff;
+  text-align: center;
+  margin-top: 2rem;
+  font-family: "Dancing Script";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 43.0021px;
+  line-height: 117.3%;
+  /* or 50px */
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #ffce6d;
+}
+
+.reserve p {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32.2516px;
+  line-height: 117.3%;
+  /* or 38px */
+  text-transform: capitalize;
+
+  color: #fffffc;
+}
+
+.form {
+  margin: -2rem auto;
+  width: 95%;
+  height: 70%;
+  /* border: 2px solid blue; */
+  position: relative;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+#time,
+#occupancy {
+  border: 1.34px solid #ffce6d;
+  background: rgb(0, 0, 0);
+  color: #fff;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+input[type="text"] {
+  position: absolute;
+  left: 5%;
+  width: 53%;
+  height: 2.5rem;
+  color: #fff;
+  padding: 0 1rem;
+}
+
+input[type="number"] {
+  position: absolute;
+  left: 60%;
+  width: 30%;
+  height: 2.5rem;
+  padding: 0 1rem;
+}
+
+input[type="date"] {
+  position: absolute;
+  top: 17%;
+  left: 5%;
+  width: 25%;
+  height: 2.5rem;
+  padding: 0 1rem;
+}
+
+#time {
+  width: 25%;
+  height: 2.5rem;
+  position: absolute;
+  top: 17%;
+  left: 33%;
+  padding: 0 1rem;
+}
+
+#occupancy {
+  width: 30%;
+  height: 2.5rem;
+  position: absolute;
+  top: 17%;
+  left: 60%;
+  padding: 0 1rem;
+}
+
+.reserve-btn {
+  position: absolute;
+  top: 50%;
+  left: 42%;
+
+  background: rgb(0, 0, 0);
+  color: #fff;
+  padding: 1rem 4rem;
+  text-decoration: none;
+  border-radius: 3px;
+  font-weight: 500;
+  border: 1.34px solid #ffce6d;
+
+  cursor: pointer;
+}
+
+/* reviews section css starts here */
+
+.reviews-section {
+  width: 100%;
+  height: 100vh;
+
+  color: white;
+}
+
+.reviews-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-bottom: 1rem;
+}
+
+.review h3 {
+  text-align: center;
+  font-family: "Dancing Script";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 117.3%;
+  /* or 42px */
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #ffce6d;
+}
+
+.review p {
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 117.3%;
+  /* or 35px */
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #fffffc;
+}
+
+.review-card {
+  width: 30%;
+  height: 60vh;
+
+  margin: 3rem 0 0 2rem;
+  background: rgb(0, 0, 0);
+  position: relative;
+}
+
+.review-img {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 8%;
+  left: 3%;
+}
+
+.review-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review-name {
+  position: absolute;
+  left: 38%;
+  top: 15%;
+}
+
+.review-name i {
+  width: 12px;
+  height: 12px;
+}
+
+.review-name h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 155.3%;
+  /* or 28px */
+  letter-spacing: 0.13em;
+  text-transform: capitalize;
+
+  color: #fffffc;
+}
+
+.review-text {
+  position: absolute;
+  top: 45%;
+  left: 3%;
+}
+
+.review-text p {
+  font-family: "Roboto";
+  text-align: start;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.13em;
+  text-transform: capitalize;
+  margin-bottom: 5rem;
+  color: #fffffc;
+}
+
+/* contact-section css starts here */
+
+.contact-section {
+  width: 100%;
+  height: 60vh;
+
+  background: rgb(0, 0, 0);
+  margin-top: -3rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.2rem 0;
+  width: 88%;
+  height: 90%;
+}
+
+.contact-container .column {
+  flex: 1;
+  padding: 0 1.2rem;
+
+  height: 100%;
+}
+
+.column h4 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  margin-left: 3.3rem;
+  margin-top: 0.8rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+  color: #fffccc;
+}
+
+.column p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155.3%;
+  /* or 25px */
+  letter-spacing: 0.13em;
+  text-transform: capitalize;
+  margin: 1.5rem 0;
+  color: #fffffc;
+}
+
+.social-icon i {
+  height: 27px;
+  width: 32px;
+  background: #333539;
+  color: #fffffc;
+  font-size: 1.2rem;
+  padding: 0.4em;
+}
+
+#other-links {
+  margin-left: 4rem;
+}
+
+.column ul {
+  width: 240px;
+  height: 146px;
+  margin: 1rem 0 1rem 4rem;
+}
+
+.column ul a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 168.8%;
+  /* or 27px */
+  letter-spacing: 0.13em;
+  text-transform: capitalize;
+
+  color: #fffffc;
+}
+
+.column h2 {
+  margin-top: 0.8rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 23px;
+  text-transform: capitalize;
+
+  color: #fffffc;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 18px;
+  margin-top: 1.5rem;
+}
+
+.social i {
+  margin: 0.4rem 0 0 0;
+  font-size: 1.2rem;
+  color: #a08040;
+}
+
+.details-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.contact-details p {
+  margin: 0.8rem 0 0 0.8rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 155.3%;
+  /* or 25px */
+  letter-spacing: 0.13em;
+  text-transform: capitalize;
+
+  color: #fffffc;
+}
+
+/* footer css starts here */
 
 footer {
   width: 100%;
@@ -467,8 +916,7 @@ footer p {
   color: #ffffff;
 }
 
-
-/* mobile menu css */
+/* mobile navbar css */
 
 .custom {
   background: rgb(0, 0, 0);
