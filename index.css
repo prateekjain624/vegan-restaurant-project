@@ -147,7 +147,6 @@ img {
 /* about-us section css starts here */
 
 main {
- 
   width: 100%;
   height: auto;
   display: flex;
@@ -404,6 +403,12 @@ main {
 .menu img {
   height: 50px;
   width: 50px;
+}
+
+.menu hr {
+  width: 100px;
+  height: 2px;
+  background-color: gold;
 }
 .text {
   margin: 0 0.8rem;
