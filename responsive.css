@@ -36,13 +36,13 @@
     width: 40px;
   }
 
-  .menu-list{
+  .menu-list {
     justify-content: center;
   }
 
   /* offer section css */
 
-  .offer h2{
+  .offer h2 {
     font-size: 1.8rem;
   }
 }
@@ -170,23 +170,62 @@
     justify-content: center;
   }
 
-   /* offer section css */
+  /* offer section css */
 
- 
-
-  .offer h2{
+  .offer h2 {
     width: 50%;
     font-size: 1.5rem;
   }
 
-  .offer h3{
+  .offer h3 {
     font-size: 2rem;
     top: 38%;
   }
 
-  .book-table{
+  .book-table {
     padding: 1.5rem;
   }
+
+    /* review-section */
+
+    .reviews-section{
+      height: 157vh;
+    }
+  
+    .review-card{
+      margin: 1rem auto;
+      width: 90%;
+      height: 35vh;
+    }
+  
+    .review-name{
+      left: 3%;
+      top: 28%;
+    }
+  
+    .review-name h4{
+      font-size: 15px;
+      margin-bottom: 0rem;
+      margin-top: 1rem;
+    }
+  
+    .review-name i{
+      width: 10px;
+    }
+  
+    .review-img{
+      width: 50px;
+      height: 50px;
+    }
+  
+    .review-text{
+      top: 7%;
+      left: 28%;
+    }
+  
+    .review-text p{
+      font-size: 12px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -299,7 +338,6 @@
 
   .menu-section {
     width: 100%;
-   
   }
 
   .menu {
@@ -309,35 +347,75 @@
 
   .menu-list {
     flex-wrap: nowrap;
-    
   }
 
   /* offer section css */
 
-  .offer-section{
+  .offer-section {
     margin-top: 20rem;
   }
 
-  .offer h2{
+  .offer h2 {
     width: 60%;
     font-size: 1.5rem;
   }
 
-  .offer h3{
+  .offer h3 {
     font-size: 2rem;
     top: 38%;
   }
 
-  .book-table{
+  .book-table {
     padding: 1.5rem;
   }
 
   /* reserve-seat css */
 
-  .reserve-btn{
+  .reserve-btn {
     top: 43%;
     left: 28%;
   }
+
+    /* review-section */
+
+    .reviews-section{
+      height: 157vh;
+    }
+  
+    .review-card{
+      margin: 1rem auto;
+      width: 90%;
+      height: 35vh;
+    }
+  
+    .review-name{
+      left: 3%;
+      top: 28%;
+    }
+  
+    .review-name h4{
+      font-size: 15px;
+      margin-bottom: 0rem;
+      margin-top: 1rem;
+    }
+  
+    .review-name i{
+      width: 10px;
+    }
+  
+    .review-img{
+      width: 50px;
+      height: 50px;
+    }
+  
+    .review-text{
+      top: 7%;
+      left: 28%;
+    }
+  
+    .review-text p{
+      font-size: 12px;
+    }
 }
 
 @media (min-width: 426px) and (max-width: 575px) {
@@ -461,7 +539,6 @@
 
   .menu-section {
     margin-top: 3rem;
-   
   }
 
   hr {
@@ -485,58 +562,98 @@
 
   /* offer section css */
 
-  .offer-section{
+  .offer-section {
     margin-top: 10rem;
   }
 
-  .offer h2{
+  .offer h2 {
     width: 60%;
     font-size: 1.5rem;
   }
 
-  .offer h3{
+  .offer h3 {
     font-size: 1.4rem;
   }
 
-  .book-table{
+  .book-table {
     padding: 1rem;
   }
 
   /* reserve the seat */
 
-  input[type="text"]{
+  input[type="text"] {
     width: 90%;
   }
 
-  input[type="number"]{
+  input[type="number"] {
     top: 16%;
     left: 5%;
     width: 90%;
   }
 
-  input[type="date"]{
+  input[type="date"] {
     top: 32%;
     width: 45%;
-   
   }
 
-  #time{
+  #time {
     top: 32%;
     left: 53%;
     width: 42%;
   }
 
-  #occupancy{
+  #occupancy {
     top: 46%;
     left: 5%;
     width: 90%;
   }
 
-  .reserve-btn{
+  .reserve-btn {
     padding: 1rem 2rem;
     top: 65%;
     left: 30%;
   }
+
+    /* review-section */
+
+    .reviews-section{
+      height: 157vh;
+    }
+  
+    .review-card{
+      margin: 1rem auto;
+      width: 90%;
+      height: 35vh;
+    }
+  
+    .review-name{
+      left: 3%;
+      top: 28%;
+    }
+  
+    .review-name h4{
+      font-size: 15px;
+      margin-bottom: 0rem;
+      margin-top: 1rem;
+    }
+  
+    .review-name i{
+      width: 10px;
+    }
+  
+    .review-img{
+      width: 50px;
+      height: 50px;
+    }
+  
+    .review-text{
+      top: 7%;
+      left: 28%;
+    }
+  
+    .review-text p{
+      font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -659,7 +776,6 @@
     width: 100%;
     margin-top: 3rem;
     height: 110vh;
-   
   }
 
   hr {
@@ -684,56 +800,96 @@
 
   /* offer-section css */
 
-  .offer-section{
+  .offer-section {
     margin-top: 6rem;
   }
 
-  .offer h2{
+  .offer h2 {
     width: 60%;
     font-size: 1.5rem;
   }
 
-  .offer h3{
+  .offer h3 {
     font-size: 1.4rem;
   }
 
-  .book-table{
+  .book-table {
     padding: 1rem;
   }
 
   /* reserve the seat */
 
-  input[type="text"]{
+  input[type="text"] {
     width: 90%;
   }
 
-  input[type="number"]{
+  input[type="number"] {
     top: 16%;
     left: 5%;
     width: 90%;
   }
 
-  input[type="date"]{
+  input[type="date"] {
     top: 32%;
     width: 47%;
-   
   }
 
-  #time{
+  #time {
     top: 32%;
     left: 53%;
     width: 42%;
   }
 
-  #occupancy{
+  #occupancy {
     top: 46%;
     left: 5%;
     width: 90%;
   }
 
-  .reserve-btn{
+  .reserve-btn {
     padding: 1rem 2rem;
     top: 65%;
     left: 30%;
+  }
+
+  /* review-section */
+
+  .reviews-section{
+    height: 157vh;
+  }
+
+  .review-card{
+    margin: 1rem auto;
+    width: 90%;
+    height: 35vh;
+  }
+
+  .review-name{
+    left: 3%;
+    top: 28%;
+  }
+
+  .review-name h4{
+    font-size: 15px;
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+  }
+
+  .review-name i{
+    width: 10px;
+  }
+
+  .review-img{
+    width: 50px;
+    height: 50px;
+  }
+
+  .review-text{
+    top: 7%;
+    left: 28%;
+  }
+
+  .review-text p{
+    font-size: 12px;
   }
 }
