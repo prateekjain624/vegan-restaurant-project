@@ -147,7 +147,7 @@ img {
 /* about-us section css starts here */
 
 main {
-  height: auto;
+ 
   width: 100%;
   height: auto;
   display: flex;
@@ -210,7 +210,7 @@ main {
 .about-us p {
   color: #fff;
   width: 70%;
-  text-align: start;
+  text-align: justify;
   /* margin: -2rem 4rem; */
 
   position: absolute;
