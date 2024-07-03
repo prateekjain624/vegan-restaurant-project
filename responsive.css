@@ -9,22 +9,22 @@
     top: 10%;
   }
 
-  .about-us h3{
-    top: 20%;
+  .about-us h3 {
+    top: 21%;
   }
 
-  .about-us p{
+  .about-us p {
     top: 36%;
   }
 
-  .about-us a{
-    top: 70%;
+  .about-us a {
+    top: 80%;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
-  header,nav{
+  header,
+  nav {
     height: 90vh;
   }
   .container-fluid {
@@ -51,34 +51,34 @@
     line-height: 1.2rem;
   }
 
-  main{
+  main {
     margin-top: -7rem;
   }
 
   .about-section {
     height: 100vh;
-    padding-top: 8rem;
-  }
-
-
-
-  .about-us p {
-    width: 90%;
-    top: 30%;
+    
   }
 
   .about-us h3 {
     font-size: 2rem;
-    top: 20%;
+    top: 22%;
   }
+
+  .about-us p {
+    width: 90%;
+    top: 33%;
+  }
+
+  .about-us .read-more {
+    top: 78%;
+  }
+
   .aboutus-img {
-    top: 35%;
+    top: 20%;
     left: 61%;
   }
-  
-  .about-us .read-more{
-    top: 61%;
-  }
+
   .read-more {
     padding: 0.5rem 1.5rem;
   }
@@ -123,8 +123,24 @@
     width: 80%;
   }
 
+  .about-us h2{
+    left: 12%;
+  }
+
+  .about-us h3{
+    top: 23%;
+    left: 12%;
+  }
+
   .about-us p {
     width: 100%;
+    top: 40%;
+    left: 12%;
+  }
+
+  .about-us a{
+    top: 70%;
+    left: 12%;
   }
 
   .aboutus-img {
@@ -198,7 +214,7 @@
   }
 
   .about-us a {
-    top: 65%;
+    top: 72%;
     left: 14%;
   }
 
