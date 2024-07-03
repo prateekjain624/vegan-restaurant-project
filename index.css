@@ -654,14 +654,14 @@ input[type="date"] {
 .reviews-section {
   width: 100%;
   height: 100vh;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   color: white;
 }
 
 .reviews-container {
   display: flex;
   flex-wrap: wrap;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   margin-bottom: 1rem;
 }
 
@@ -696,7 +696,7 @@ input[type="date"] {
 .review-card {
   width: 30%;
   height: 60vh;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   margin: 3rem 0 0 2rem;
   background: rgb(0, 0, 0);
   position: relative;
