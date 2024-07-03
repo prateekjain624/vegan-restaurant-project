@@ -10,16 +10,54 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .navbar-container {
-    width: 59%;
-    margin: 0 6rem;
-  }
+
   .container-fluid {
-    padding-top: 5rem;
+    padding-top: 2rem;
   }
 
+  .navbar-container {
+    width: 56%;
+    margin: 0px 9rem;
+    justify-content: space-between;
+  }
+ 
+
   .hero-container {
-    left: 25%;
+    left: 30%;
+  }
+
+  .hero-image{
+    width: 250px;
+  }
+
+  .hero-details h2{
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+  }
+
+
+  .about-section {
+    height: 100vh;
+  }
+
+  .about-us {
+    width: 60%;
+  }
+
+  .about-us p {
+    width: 90%;
+  }
+
+  .about-us h3 {
+    font-size: 2rem;
+  }
+  .aboutus-img{
+    top: 20%;
+    left: 67%;
+  }
+
+  .read-more {
+    padding: 0.5rem 1.5rem;
   }
 }
 
@@ -35,10 +73,39 @@
     display: block;
   }
 
-
   .hero-container {
-    top: 12%;
-    left: 25%;
+    left: 20%;
+    top: 13%;
+  }
+
+  .hero-image{
+    width: 250px;
+  }
+
+  .hero-details h2{
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+  }
+
+  .read-more {
+    padding: 0.5rem 1.5rem;
+    margin-top: 0;
+  }
+
+  .about-section {
+    height: 100vh;
+  }
+
+  .about-us {
+    width: 80%;
+  }
+
+  .about-us p {
+    width: 100%;
+  }
+
+  .aboutus-img {
+    display: none;
   }
 }
 
@@ -54,9 +121,66 @@
     display: block;
   }
 
-
   .hero-container {
     left: 20%;
+    top: 13%;
+  }
+
+  .hero-image{
+    width: 250px;
+  }
+
+  .hero-details h2{
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+  }
+
+  .read-more{
+    margin-top: 0;
+  }
+
+  .about-section {
+    height: 100vh;
+  }
+
+  .about-us {
+    width: 80%;
+    padding: 1rem;
+  }
+
+  .about-us h2 {
+    top: 10%;
+    left: 14%;
+  }
+
+  .about-us h3 {
+    top: 18%;
+    left: 14%;
+  }
+
+  .aboutus-img {
+    display: none;
+  }
+
+  .about-us p {
+    width: 100%;
+    top: 32%;
+    left: 14%;
+    text-align: justify;
+  }
+
+  .about-us h3 {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+
+  .about-us a{
+    top: 80%;
+    left: 14%;
+  }
+
+  .read-more {
+    padding: 0.5rem 1.5rem;
   }
 }
 
@@ -72,12 +196,60 @@
     display: block;
   }
 
-  .hero-container {
-    left: 15%;
-  }
+ 
 
   .hero-container {
+    top: 17%;
+    left: 10%;
+  }
+
+  .hero-image{
+    width: 250px;
+  }
+
+  .hero-details h2{
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+  }
+
+
+  .about-section{
+    height: 100vh;
+  }
+
+  .about-us{
+    width: 90%;
+  }
+
+  .aboutus-img {
+    display: none;
+  }
+
+  .about-us h2{
     top: 10%;
-    left: 8%;
+    left: 10%;
+  }
+
+  .about-us h3{
+    top: 20%;
+    left: 10%;
+    font-size: 2rem;
+  }
+
+  .about-us p{
+    width: 100%;
+    left: 7%;
+    top: 35%;
+    text-align: justify;
+  }
+
+  .about-us a{
+   
+    left: 10%;
+  }
+
+  .read-more {
+    padding: 0.5rem 1.5rem;
+    
   }
 }
