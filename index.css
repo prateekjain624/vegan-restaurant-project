@@ -4,7 +4,6 @@ html {
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
-  
 }
 
 header {
@@ -87,7 +86,6 @@ img {
 .text-clr {
   color: #ffffcc;
 }
-
 
 ::-webkit-scrollbar {
   display: none;
@@ -637,8 +635,8 @@ input[type="date"] {
 
 .reserve-btn {
   position: absolute;
-  top: 50%;
-  left: 42%;
+  top: 45%;
+  left: 35%;
 
   background: rgb(0, 0, 0);
   color: #fff;
