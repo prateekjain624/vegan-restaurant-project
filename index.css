@@ -4,6 +4,7 @@ html {
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
+  
 }
 
 header {
@@ -85,6 +86,11 @@ img {
 
 .text-clr {
   color: #ffffcc;
+}
+
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 /* hero container css starts here */

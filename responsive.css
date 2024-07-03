@@ -29,10 +29,15 @@
 
   .menu {
     width: 50%;
+    justify-content: center;
   }
 
   .menu hr {
     width: 40px;
+  }
+
+  .menu-list{
+    justify-content: center;
   }
 }
 
@@ -147,6 +152,7 @@
 
   .menu-list {
     width: 95%;
+    justify-content: center;
   }
 
   hr {
@@ -155,6 +161,7 @@
 
   .menu {
     width: 50%;
+    justify-content: center;
   }
 }
 
@@ -268,7 +275,7 @@
 
   .menu-section {
     width: 100%;
-    height: 150vh;
+   
   }
 
   .menu {
@@ -278,6 +285,7 @@
 
   .menu-list {
     flex-wrap: nowrap;
+    
   }
 }
 
@@ -402,7 +410,7 @@
 
   .menu-section {
     margin-top: 3rem;
-    height: 130vh;
+   
   }
 
   hr {
@@ -544,7 +552,7 @@
   .menu-section {
     width: 100%;
     margin-top: 3rem;
-    height: 100vh;
+   
   }
 
   hr {
