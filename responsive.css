@@ -10,7 +10,6 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   .container-fluid {
     padding-top: 2rem;
   }
@@ -20,21 +19,19 @@
     margin: 0px 9rem;
     justify-content: space-between;
   }
- 
 
   .hero-container {
     left: 30%;
   }
 
-  .hero-image{
+  .hero-image {
     width: 250px;
   }
 
-  .hero-details h2{
+  .hero-details h2 {
     font-size: 1.5rem;
     line-height: 1.2rem;
   }
-
 
   .about-section {
     height: 100vh;
@@ -51,7 +48,7 @@
   .about-us h3 {
     font-size: 2rem;
   }
-  .aboutus-img{
+  .aboutus-img {
     top: 20%;
     left: 67%;
   }
@@ -78,11 +75,11 @@
     top: 13%;
   }
 
-  .hero-image{
+  .hero-image {
     width: 250px;
   }
 
-  .hero-details h2{
+  .hero-details h2 {
     font-size: 1.5rem;
     line-height: 1.2rem;
   }
@@ -126,16 +123,16 @@
     top: 13%;
   }
 
-  .hero-image{
+  .hero-image {
     width: 250px;
   }
 
-  .hero-details h2{
+  .hero-details h2 {
     font-size: 1.5rem;
     line-height: 1.2rem;
   }
 
-  .read-more{
+  .read-more {
     margin-top: 0;
   }
 
@@ -174,7 +171,7 @@
     margin-bottom: 0;
   }
 
-  .about-us a{
+  .about-us a {
     top: 80%;
     left: 14%;
   }
@@ -196,28 +193,30 @@
     display: block;
   }
 
- 
-
   .hero-container {
-    top: 17%;
+    top: 10%;
     left: 10%;
   }
 
-  .hero-image{
+  .hero-image {
     width: 250px;
   }
 
-  .hero-details h2{
-    font-size: 1.5rem;
-    line-height: 1.2rem;
+  .hero-details h2 {
+    font-size: 1.2rem;
+    line-height: 1rem;
   }
 
-
-  .about-section{
-    height: 100vh;
+  .hero-details p {
+    font-size: 10px;
+    font-weight: 700;
   }
 
-  .about-us{
+  .hero-details .read-more {
+    margin-top: 0;
+  }
+
+  .about-us {
     width: 90%;
   }
 
@@ -225,31 +224,30 @@
     display: none;
   }
 
-  .about-us h2{
+  .about-us h2 {
     top: 10%;
     left: 10%;
   }
 
-  .about-us h3{
+  .about-us h3 {
     top: 20%;
     left: 10%;
     font-size: 2rem;
   }
 
-  .about-us p{
+  .about-us p {
     width: 100%;
     left: 7%;
-    top: 35%;
+    top: 30%;
     text-align: justify;
   }
 
-  .about-us a{
-   
+  .about-us a {
     left: 10%;
+    top: 67%;
   }
 
   .read-more {
     padding: 0.5rem 1.5rem;
-    
   }
 }
