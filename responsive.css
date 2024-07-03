@@ -331,6 +331,13 @@
   .book-table{
     padding: 1.5rem;
   }
+
+  /* reserve-seat css */
+
+  .reserve-btn{
+    top: 43%;
+    left: 28%;
+  }
 }
 
 @media (min-width: 426px) and (max-width: 575px) {
@@ -494,6 +501,42 @@
   .book-table{
     padding: 1rem;
   }
+
+  /* reserve the seat */
+
+  input[type="text"]{
+    width: 90%;
+  }
+
+  input[type="number"]{
+    top: 16%;
+    left: 5%;
+    width: 90%;
+  }
+
+  input[type="date"]{
+    top: 32%;
+    width: 45%;
+   
+  }
+
+  #time{
+    top: 32%;
+    left: 53%;
+    width: 42%;
+  }
+
+  #occupancy{
+    top: 46%;
+    left: 5%;
+    width: 90%;
+  }
+
+  .reserve-btn{
+    padding: 1rem 2rem;
+    top: 65%;
+    left: 30%;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -656,5 +699,41 @@
 
   .book-table{
     padding: 1rem;
+  }
+
+  /* reserve the seat */
+
+  input[type="text"]{
+    width: 90%;
+  }
+
+  input[type="number"]{
+    top: 16%;
+    left: 5%;
+    width: 90%;
+  }
+
+  input[type="date"]{
+    top: 32%;
+    width: 45%;
+   
+  }
+
+  #time{
+    top: 32%;
+    left: 53%;
+    width: 42%;
+  }
+
+  #occupancy{
+    top: 46%;
+    left: 5%;
+    width: 90%;
+  }
+
+  .reserve-btn{
+    padding: 1rem 2rem;
+    top: 65%;
+    left: 30%;
   }
 }
