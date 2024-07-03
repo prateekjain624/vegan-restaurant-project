@@ -39,6 +39,12 @@
   .menu-list{
     justify-content: center;
   }
+
+  /* offer section css */
+
+  .offer h2{
+    font-size: 1.8rem;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -163,6 +169,24 @@
     width: 50%;
     justify-content: center;
   }
+
+   /* offer section css */
+
+ 
+
+  .offer h2{
+    width: 50%;
+    font-size: 1.5rem;
+  }
+
+  .offer h3{
+    font-size: 2rem;
+    top: 38%;
+  }
+
+  .book-table{
+    padding: 1.5rem;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -286,6 +310,26 @@
   .menu-list {
     flex-wrap: nowrap;
     
+  }
+
+  /* offer section css */
+
+  .offer-section{
+    margin-top: 20rem;
+  }
+
+  .offer h2{
+    width: 60%;
+    font-size: 1.5rem;
+  }
+
+  .offer h3{
+    font-size: 2rem;
+    top: 38%;
+  }
+
+  .book-table{
+    padding: 1.5rem;
   }
 }
 
@@ -431,6 +475,25 @@
     font-size: 0.8rem;
     line-height: 10px;
   }
+
+  /* offer section css */
+
+  .offer-section{
+    margin-top: 10rem;
+  }
+
+  .offer h2{
+    width: 60%;
+    font-size: 1.5rem;
+  }
+
+  .offer h3{
+    font-size: 1.4rem;
+  }
+
+  .book-table{
+    padding: 1rem;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -574,5 +637,24 @@
   .text h4 {
     font-size: 0.8rem;
     line-height: 10px;
+  }
+
+  /* offer-section css */
+
+  .offer-section{
+    margin-top: 10rem;
+  }
+
+  .offer h2{
+    width: 60%;
+    font-size: 1.5rem;
+  }
+
+  .offer h3{
+    font-size: 1.4rem;
+  }
+
+  .book-table{
+    padding: 1rem;
   }
 }
