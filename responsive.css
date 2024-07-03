@@ -82,6 +82,50 @@
   .read-more {
     padding: 0.5rem 1.5rem;
   }
+
+  .card-container{
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .card-container .card{
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    height: 25vh;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+  }
+
+  .card h4{
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-bottom: 0px;
+
+  }
+
+  .card p{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 122.3%;
+    text-align: justify;
+    letter-spacing: 0.13rem;
+    text-transform: capitalize;
+    padding: 0px 1rem 0px 1rem;
+    color: #fffffc;
+    margin-bottom: 0;
+  }
+
+  .card img{
+    width: 45px;
+    height: 45px;
+  }
+
+  .card-details{
+    padding-left: 1rem;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -145,6 +189,50 @@
 
   .aboutus-img {
     display: none;
+  }
+
+  .card-container{
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .card-container .card{
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    height: 25vh;
+    margin-bottom: 1rem;
+    margin-left: 2rem;;
+  }
+
+  .card h4{
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-bottom: 0px;
+
+  }
+
+  .card p{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 122.3%;
+    text-align: justify;
+    letter-spacing: 0.13rem;
+    text-transform: capitalize;
+    padding: 0px 1rem 0px 1rem;
+    color: #fffffc;
+    margin-bottom: 0;
+  }
+
+  .card img{
+    width: 45px;
+    height: 45px;
+  }
+
+  .card-details{
+    padding-left: 1rem;
   }
 }
 
@@ -221,6 +309,50 @@
   .read-more {
     padding: 0.5rem 1.5rem;
   }
+
+  .card-container{
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .card-container .card{
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    height: 25vh;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+  }
+
+  .card h4{
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-bottom: 0px;
+
+  }
+
+  .card p{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 122.3%;
+    text-align: justify;
+    letter-spacing: 0.13rem;
+    text-transform: capitalize;
+    padding: 0px 1rem 0px 1rem;
+    color: #fffffc;
+    margin-bottom: 0;
+  }
+
+  .card img{
+    width: 45px;
+    height: 45px;
+  }
+
+  .card-details{
+    padding-left: 1rem;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -258,6 +390,8 @@
     margin-top: 0;
   }
 
+  /* about-us css */
+
   .about-us {
     width: 90%;
   }
@@ -291,5 +425,51 @@
 
   .read-more {
     padding: 0.5rem 1.5rem;
+  }
+
+  /* services css */
+
+  .card-container{
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .card-container .card{
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    height: 25vh;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+  }
+
+  .card h4{
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-bottom: 0px;
+
+  }
+
+  .card p{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 122.3%;
+    text-align: justify;
+    letter-spacing: 0.13rem;
+    text-transform: capitalize;
+    padding: 0px 1rem 0px 1rem;
+    color: #fffffc;
+    margin-bottom: 0;
+  }
+
+  .card img{
+    width: 45px;
+    height: 45px;
+  }
+
+  .card-details{
+    padding-left: 1rem;
   }
 }
