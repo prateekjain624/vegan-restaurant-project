@@ -765,13 +765,26 @@ input[type="date"] {
 .contact-section {
   width: 100%;
   height: 60vh;
-
+  /* border: 2px solid red; */
   background: rgb(0, 0, 0);
   margin-top: -3rem;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.Contact-us{
+  display: none;
+  text-align: center;
+  font-family: "Dancing Script";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 117.3%;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #ffce6d;
 }
 
 .contact-container {
@@ -781,20 +794,22 @@ input[type="date"] {
   padding: 1.2rem 0;
   width: 88%;
   height: 90%;
+  /* border: 2px solid green; */
 }
 
 .contact-container .column {
   flex: 1;
   padding: 0 1.2rem;
-
+  /* border: 2px solid blue; */
   height: 100%;
+  width: 100%;
 }
 
 .column h4 {
   font-size: 1rem;
   margin-bottom: 10px;
-  margin-left: 3.3rem;
-  margin-top: 0.8rem;
+  margin-left: 5rem;
+  margin-top: -2.2rem;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -816,6 +831,11 @@ input[type="date"] {
   text-transform: capitalize;
   margin: 1.5rem 0;
   color: #fffffc;
+  margin-left: 2.5rem;
+}
+
+.social-icon{
+  margin-left: 1rem;
 }
 
 .social-icon i {
